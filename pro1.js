@@ -27,7 +27,7 @@ const b=document.createElement('button')
     {
      
       u.removeChild(event.target.parentElement)
-      localStorage.removeItem("User Details")
+      localStorage.removeItem(myObj.exp)
 
     }
 })
